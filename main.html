@@ -1,16 +1,78 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Information</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Assuming you have a separate CSS file for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .first-column, .last-column {
+            width: 200px;
+        }
+        .middle-column {
+            width: 600px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+        <h1>Architecture Information</h1>
+
+        <div class="imageContainer">
+            <img src="architecture.jpg" alt="Architecture Image">
+        </div>
+
+        <table>
+            <tr>
+                <th class="first-column">Image</th>
+                <th class="middle-column">Text Content</th>
+                <th class="last-column">Image</th>
+            </tr>
+            <tr>
+                <td class="first-column"><img src="image1.jpg" alt="Image 1"></td>
+                <td class="middle-column">Text description about Image 1.</td>
+                <td class="last-column"><img src="image2.jpg" alt="Image 2"></td>
+            </tr>
+            <tr>
+                <td class="first-column"><img src="image3.jpg" alt="Image 3"></td>
+                <td class="middle-column">Text description about Image 3.</td>
+                <td class="last-column"><img src="image4.jpg" alt="Image 4"></td>
+            </tr>
+        </table>
+    </div>
 
 </body>
-
 </html>
