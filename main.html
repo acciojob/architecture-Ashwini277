@@ -1,79 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architecture Information</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-        .container {
-            width: 1100px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .imageContainer {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .imageContainer img {
-            max-width: 100%;
-            height: auto;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-            text-align: center;
-            padding: 10px;
-        }
-        .first-column, .last-column {
-            width: 200px;
-        }
-        .middle-column {
-            width: 600px;
-        }
-    </style>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Architecture</title>
+  <link rel="stylesheet" href="style.css"> </head>
 <body>
+  <div class="container" style="width: 1100px;">
 
-    <div class="container">
-        <h1>Architecture Information</h1>
+    <div class="imageContainer">
+      <img src="banner.jpg" alt="Architecture Banner"> </div>
 
-        <div class="imageContainer">
-            <img src="architecture.jpg" alt="Architecture Image">
-        </div>
+    <table>
+      <tr>
+        <th width="200">Image</th>
+        <th width="600">Architectural Style</th>
+        <th width="200">Image</th>
+      </tr>
+      <tr>
+        <td><img src="gothic.jpg" alt="Gothic Architecture"></td> <td>
+          <h2>Gothic Architecture</h2>
+          <p>Characterized by pointed arches, ribbed vaults, and stained glass windows. Popular in Europe during the Middle Ages.</p>
+        </td>
+        <td><img src="modern.jpg" alt="Modern Architecture"></td> </tr>
+      <tr>
+        <td><img src="greek.jpg" alt="Greek Architecture"></td> <td>
+          <h2>Greek Architecture</h2>
+          <p>Known for its symmetrical temples, Doric, Ionic, and Corinthian columns. Influenced Roman and Western architecture.</p>
+        </td>
+        <td><img src="artdeco.jpg" alt="Art Deco Architecture"></td> </tr>
+    </table>
 
-        <table>
-            <thead>
-                <tr>
-                    <th class="first-column">Image</th>
-                    <th class="middle-column">Text Content</th>
-                    <th class="last-column">Image</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first-column"><img src="image1.jpg" alt="Image 1"></td>
-                    <td class="middle-column">Text description about Image 1.</td>
-                    <td class="last-column"><img src="image2.jpg" alt="Image 2"></td>
-                </tr>
-                <tr>
-                    <td class="first-column"><img src="image3.jpg" alt="Image 3"></td>
-                    <td class="middle-column">Text description about Image 3.</td>
-                    <td class="last-column"><img src="image4.jpg" alt="Image 4"></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
+  </div>
 </body>
 </html>
